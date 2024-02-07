@@ -1,0 +1,268 @@
+body.main {
+    font: normal 14px Arial, Helvetica, sans-serif;
+    /*overflow-y: hidden; /* Hide vertical scrollbar */
+}
+
+body.page {
+    font: normal 14px Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #fffaf0;
+}
+
+div.text{
+    font: normal 12px Arial, Helvetica, sans-serif;
+    text-align: center;
+    flex-basis: 50%;
+}
+
+
+
+
+mainbox {
+    position: static;
+    left: max(50vw, 300px);
+    height: 100%;
+    width: 100%;
+    
+}
+
+.content {
+    width: 50%;
+    text-align: justify;
+    margin: auto; 
+    margin-left: 25vw  ;
+
+}
+
+
+.center {
+    text-align: center;
+    padding: 10px;
+}
+
+.entry {
+    text-align: justify;
+    margin: 1%;
+}
+
+iframe.page {
+    border:none;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration-line: none;   
+}
+
+.right{
+    float:right;
+    background-color: inherit;
+}
+
+.left{
+    float:left;
+    background-color: inherit;
+}
+
+hr.main{
+    width:100%; 
+    float:right;
+    padding-left:0%;
+    color:  rgb(43, 53, 83);
+    border-top: 2px solid rgb(43, 53, 83);
+    background-color: inherit;
+}
+
+hr.sub{
+    width:90%; 
+    float:right;
+    padding-right:3%;
+    color:  rgb(100, 113, 153);
+    background-color: inherit;
+}
+
+p.history {
+    margin-left: 10%;
+    padding-bottom:-10%;
+    padding-top:0
+}
+
+/*
+li {
+    color:white;
+    background-color: rgb(43, 53, 83);
+    padding-right: 20px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 20px;
+    
+}*/
+
+li.history {
+    background-color: transparent;
+    color: black;
+    width:100%;
+}
+
+li.navMa {
+    color:white;
+    background-color: rgb(43, 53, 83);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin:10%; 
+    transform: translateX(-16px);
+    padding-left: 5px;
+}
+
+li.navLi {
+    color:white;
+    background-color: rgb(43, 53, 83);
+    padding-right: 20px;
+    padding-left: 5px;
+    margin-right: 20px;
+    background-color:transparent;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin:10%; 
+}
+
+li.navLi:hover {
+    background-color: rgb(43, 53, 83);
+    transition-duration: 0.3s;
+    transform: translateX(-16px);
+}
+
+li.navLi:not(:hover) { 
+    background-color: transparent;
+    transition-duration: 0.3s;
+ }
+
+li.entry {
+    margin-bottom: 1%;
+}
+
+
+#under {
+    position: fixed;
+    z-index: 0;
+  }
+
+#underabs {
+position: relative;
+z-index: 0;
+}
+
+#over {
+    position: absolute;
+    z-index: 3;
+}
+
+#overfixed {
+    position: fixed;
+    z-index: 4;
+}
+
+navbar {
+    text-decoration: none;
+    list-style: none; 
+    margin:auto;
+    text-align: left;
+    
+}
+
+div.header{
+    width: 100%;
+    background-color: rgb(58, 72, 119);
+    height: 60px;
+    position: relative;
+}
+
+div.nav {
+    width: 25%;
+    min-width: 80px;
+    max-width: 150px;
+    height: 100%;
+    position: fixed;
+    background-color: rgb(58, 72, 119);
+    text-align: center;
+    display: flex;
+
+
+}
+
+div.navPic {
+    width: 25%;
+    min-width: 80px;
+    max-width: 150px;
+    height: 100%;
+    position: fixed;
+    text-align: center;
+
+}
+
+div.links {
+    padding: 5%;
+    margin-top: 37vh;
+    margin-left: 40%;
+    width: 15%;
+    min-width: 14vh;
+    max-width: 100px;
+    background-color: rgb(58, 72, 119);
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+img.left {
+    float: left;
+    margin: 0;
+}
+
+img.right {
+    float: right;
+    margin: 0;
+}
+
+img.center {
+    padding: 0;
+    margin:0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.image {
+    flex-basis: 100%;
+    padding:0;
+    margin:0;
+}
+
+
+h2{
+    margin: 1%;
+}
+
+
+input.staticrypt-decrypt-button {
+    background-color: rgb(58, 72, 119);
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=password] {
+    outline: none;
+}
